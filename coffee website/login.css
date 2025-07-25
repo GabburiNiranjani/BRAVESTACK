@@ -1,0 +1,157 @@
+
+body {
+  background: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+.login-container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3b141c;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: orange;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e69500;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-footer a {
+  color: orange;
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ------------------- Media Queries ------------------- */
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .login-container {
+    width: 340px;
+    padding: 28px 36px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* 900px */
+@media (max-width: 900px) {
+  .login-container {
+    width: 320px;
+    padding: 26px 30px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  input, button {
+    font-size: 15px;
+  }
+}
+
+/* 764px */
+@media (max-width: 764px) {
+  .login-container {
+    width: 300px;
+    padding: 24px 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .form-footer {
+    font-size: 13px;
+  }
+}
+
+/* 438px */
+@media (max-width: 438px) {
+  .login-container {
+    width: 280px;
+    padding: 22px 24px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  input, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .login-container {
+    width: 260px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .form-footer {
+    font-size: 12.5px;
+  }
+}
